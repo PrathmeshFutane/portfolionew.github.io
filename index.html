@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        .font-div{
+            width:30%;
+        }
+        .main_image{
+           width: 100%;
+           height:100%;
+        }
+        .name{
+            text-transform: capitalize;
+
+        }
+        .developer{
+            background-color: black;
+            color:white;
+            text-transform: capitalize;
+            font-size: 1.2rem;
+        }
+
+        @media(min-width:1200px){
+            .font-div{
+                padding:42.5px 0px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container mt-2">
+            <div class="row no-gutters">
+
+
+                <div class="col-lg-4 col-md-6 ">
+                    <img class="main_image" src="images/new.jpg" height="200px" width="300px"  alt="">
+                </div>
+    
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex flex-column">
+                        <div class="py-5 px-2 bg-dark text-white">
+                            <div class="d-flex row-flex justify-content-around align-items-center">
+                                <h1 class="display-5 name">prathmesh<br/> futane</h1>
+                                <div><i class="fa fa-facebook-square fa-2x"></i></div>
+                                <div><i class="fa fa-twitter fa-2x"></i></div>
+                                <div><i class="fa fa-google-plus fa-2x"></i></div>
+                                <div><i class="fa fa-linkedin fa-2x"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="p-3 developer">
+                            fullstack developer
+                        </div>
+
+                        <div class="d-flex flex-row text-center text-white bg-danger justify-content">
+                            <div class="p-4 bg-primary font-div" data-toggle="collapse" data-target="#home">
+                                <i class="d-block fa fa-home fa-2x"></i>
+                                Home<br/>
+                                <i class="fa fa-arrow-circle-o-down fa-2x"></i>
+                                
+                            </div>
+
+                            <div class="p-4 bg-warning font-div" data-toggle="collapse" data-target="#work"><i class="d-block fa fa-graduation-cap fa-2x"></i>  Resume<br/><i class="fa fa-arrow-circle-o-down fa-2x"></i></div>
+
+                            <div class="p-4 bg-danger font-div" data-toggle="collapse" data-target="#profile"><i class="d-block fa fa-folder fa-2x"></i>  Work<br/><i class="fa fa-arrow-circle-o-down fa-2x"></i></div>
+
+                            <div class="p-4 bg-success font-div" data-toggle="collapse" data-target="#project"> <i class="d-block fa fa-envelope fa-2x"></i>  Contact<br/><i class="fa fa-arrow-circle-o-down fa-2x"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- home -->
+    <div class="container" >
+        <div class="collapse" id="home">
+            <div class="p-5 text-white bg-primary">
+                <h2>My resume</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, blanditiis.</p>
+            </div>
+
+            <div class="card card-body">
+                <h3>My Skills</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, blanditiis.</p>
+
+                <!-- html -->
+                <h4>HTML</h4>
+                <div class="progress mb-4">
+                    <div class=" progress-bar progress-bar-striped progress-bar-animated" style="width:90%;" ></div>
+                </div>
+                <!-- CSS -->
+                <h4>CSS</h4>
+                <div class="progress mb-4">
+                    <div class=" progress-bar progress-bar-striped progress-bar-animate" style="width:80%;" ></div>
+                </div>
+                <!-- Javascript -->
+                <h4>Javascript</h4>
+                <div class="progress mb-4">
+                    <div class=" progress-bar progress-bar-striped progress-bar-animate" style="width:85%;" ></div>
+                </div>
+                <!-- bootstrap -->
+                <h4>Bootstrap</h4>
+                <div class="progress mb-4">
+                    <div class=" progress-bar progress-bar-striped progress-bar-animate" style="width:75%;" ></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- work -->
+    <div class="container">
+        <div class="collapse" id="work">
+            <div class="bg-warning p-5 text-white">
+                <h2>hi iam work</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore provident sunt repellat consectetur commodi fugit id accusamus illo repellendus vitae.</p>
+            </div>
+
+            <div class="card card-body">
+                <h4>where have i worked</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium nostrum eos, doloribus sed aliquid voluptatibus!</p>
+
+                <div class="">
+                    <div class="row">
+                    <!-- first-card -->
+                    <div class="card col-sm-12 col-md-4 col-lg-4 mb-4">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            web developer
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aperiam illo minus aliquam laudantium aliquid eos cupiditate blanditiis illum porro?</p>
+                            <p class="bg-dark p-2 text-white">frontend developer</p>
+                            <p class="bg-dark p-2 text-white">backend developer</p>
+                        </div>
+                        <div class="card-footer">
+                            2015-2017
+                        </div>
+                    </div>
+
+                    <!-- second-card -->
+                    <div class="card col-sm-12 col-md-4 col-lg-4 mb-4">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            web developer
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aperiam illo minus aliquam laudantium aliquid eos cupiditate blanditiis illum porro?</p>
+                            <p class="bg-dark p-2 text-white">frontend developer</p>
+                            <p class="bg-dark p-2 text-white">backend developer</p>
+                        </div>
+                        <div class="card-footer">
+                            2015-2017
+                        </div>
+                    </div>
+
+                    <!-- third-card -->
+                    <div class="card col-sm-12 col-md-4 col-lg-4 mb-4">
+                        <div class="card-header text-uppercase font-weight-bold">
+                            web developer
+                        </div>
+                        <div class="card-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur aperiam illo minus aliquam laudantium aliquid eos cupiditate blanditiis illum porro?</p>
+                            <p class="bg-dark p-2 text-white">frontend developer</p>
+                            <p class="bg-dark p-2 text-white">backend developer</p>
+                        </div>
+                        <div class="card-footer">
+                            2015-2017
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- profile -->
+    <div class="container">
+        <div class="collapse" id="profile">
+            <div class="bg-danger p-5 text-white">
+                <h2>My profile</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, sapiente.</p>
+
+                <h3>what i have build</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, est.</p>
+
+                <!-- first row -->
+                <div class="row no-gutters">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="images/new.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="images/prathmesh_photo.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="images/small_img.jpg" height="100%" width="100%" alt="">
+                    </div>
+                </div>
+
+                <!-- we can use order to movve images -->
+                <!-- second row -->
+                <div class="row no-gutters">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="images/new.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="images/prathmesh_photo.jpg" height="100%" width="100%" alt="">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="images/small_img.jpg" height="100%" width="100%" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div class="container">
+        <div class="collapse" id="project">
+            <div class="bg-success p-5 text-white">
+                <h2>contact</h2>
+            </div>
+
+            <div class="card card-body">
+                <div class="row text-align-center justify-content-center">
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <form action="#">
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <span class="input-group-addon text-white bg-success p-2 bg-dark text-white">
+                                        <i class="fa fa-user fa-2x"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="name">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <span class="input-group-addon text-white bg-success p-2 bg-dark text-white">
+                                        <i class="fa fa-phone fa-2x"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                    <span class="input-group-addon text-white bg-success p-2 bg-dark text-white">
+                                        <i class="fa fa-envelope fa-2x"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="email id">
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-success">send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="p-5 bg-dark text-center"> 
+            <button class="btn btn-success px-5">download</button>
+        </footer>
+    </div>
+
+   <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+<script>
+    $('.font-div').click(function(){
+        $('.collapse').collapse('hide');
+    })
+</script>
+</body>
+</html>
